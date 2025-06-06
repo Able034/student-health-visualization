@@ -2,3 +2,5 @@ dash
 pandas
 plotly
 openpyxl
+voila
+ipywidgets
