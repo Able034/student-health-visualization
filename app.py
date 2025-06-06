@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from dash import Dash, dcc, html, Output, Input
 
 # 读取数据
-df = pd.read_excel('data.xlsx')
+df = pd.read_excel('Student Smoking, Alcohol, and Mental Health Data(1)(1).xlsx')
 df.columns = df.columns.str.strip()  # 清理列名空格
 
 # 心理健康的顺序定义
